@@ -1,0 +1,10 @@
+---
+- src: http://github.com/mihaiparv/ansible-openjdk-common.git
+  path: ../
+
+- src: http://github.com/mihaiparv/ansible-ffmpeg-common.git
+  path: ../
+
+- src: http://github.com/mihaiparv/ansible-serviio-common.git
+  path: ../
+

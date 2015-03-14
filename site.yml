@@ -1,0 +1,11 @@
+---
+- name: ensure serviio is installed in the container
+  hosts: localhost
+  sudo: yes
+  roles:
+    - ansible-openjdk-common
+    - ansible-ffmpeg-common
+    - { role:             ansible-serviio-common,
+        serviio_version:  '1.5.1',
+        serviio_user:     'root'
+      }
