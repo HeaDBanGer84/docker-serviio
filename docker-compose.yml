@@ -1,0 +1,7 @@
+serviio:
+  build: .
+  net: host
+  volumes:
+    - logs:/opt/serviio/log
+    - library:/opt/serviio/library
+    - ~:/mnt/storage

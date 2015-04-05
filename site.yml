@@ -9,3 +9,4 @@
         serviio_version:  '1.5.1',
         serviio_user:     'root'
       }
+    - ansible-serviio-webui-common
