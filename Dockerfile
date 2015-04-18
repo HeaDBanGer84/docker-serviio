@@ -18,4 +18,4 @@ VOLUME /mnt/storage
 EXPOSE 23423:23423/tcp 8895:8895/tcp 1900:1900/udp
 
 WORKDIR /opt/serviio
-ENTRYPOINT [ "bin/serviio-wrapper.sh" ]
+CMD [ "bin/serviio.sh" ]
