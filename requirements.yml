@@ -7,6 +7,3 @@
 
 - src: http://github.com/mihaiparv/ansible-serviio-common.git
   path: ../
-
-- src: http://github.com/mihaiparv/ansible-serviio-webui-common.git
-  path: ../
