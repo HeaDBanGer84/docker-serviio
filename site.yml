@@ -6,6 +6,6 @@
     - ansible-openjdk-common
     - ansible-ffmpeg-common
     - { role:             ansible-serviio-common,
-        serviio_version:  '1.5.1',
+        serviio_version:  '1.5.2',
         serviio_user:     'root'
       }
