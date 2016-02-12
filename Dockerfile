@@ -5,7 +5,7 @@ RUN yum install -y java-1.8.0-openjdk tar && \
     yum clean all && \
     rm -rf /var/lib/yum/yumdb/*
 
-ENV SERVIIO_VERSION 1.5.2
+ENV SERVIIO_VERSION 1.6
 
 RUN DIR=$(mktemp -d) && cd ${DIR} && \
     curl -Os http://download.serviio.org/releases/serviio-${SERVIIO_VERSION}-linux.tar.gz && \
