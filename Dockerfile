@@ -3,7 +3,7 @@ MAINTAINER headbanger84
 
 RUN apt install -y java-1.8.0-openjdk tar
 
-ENV SERVIIO_VERSION 1.6.1
+ENV SERVIIO_VERSION 1.7
 
 RUN DIR=$(mktemp -d) && cd ${DIR} && \
     curl -Os http://download.serviio.org/releases/serviio-${SERVIIO_VERSION}-linux.tar.gz && \
