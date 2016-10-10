@@ -1,7 +1,8 @@
 FROM jrottenberg/ffmpeg
 MAINTAINER headbanger84
 
-RUN apt-get install -y openjdk-8-jdk tar
+RUN apt-get update && \
+	apt-get install -y openjdk-8-jdk tar
  #   apt-get autoremove && \
  #   apt-get clean
 
