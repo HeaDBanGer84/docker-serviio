@@ -1,9 +1,7 @@
 FROM jrottenberg/ffmpeg
 MAINTAINER headbanger84
 
-RUN yum install -y java-1.8.0-openjdk tar && \
-    yum clean all && \
-    rm -rf /var/lib/yum/yumdb/*
+RUN apt install -y java-1.8.0-openjdk tar
 
 ENV SERVIIO_VERSION 1.6.1
 
