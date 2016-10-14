@@ -2,11 +2,11 @@ FROM jrottenberg/ffmpeg
 MAINTAINER headbanger84
 
 RUN apt-get update && \
-	apt-get install -y openjdk-8-jdk tar
+	apt-get install -y openjdk-8-jdk-headless curl tar
  #   apt-get autoremove && \
  #   apt-get clean
 
-ENV SERVIIO_VERSION 1.7
+ENV SERVIIO_VERSION 1.7.1
 
 RUN DIR=$(mktemp -d) && cd ${DIR} && \
     curl -Os http://download.serviio.org/releases/serviio-${SERVIIO_VERSION}-linux.tar.gz && \
