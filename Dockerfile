@@ -6,7 +6,7 @@ RUN apt-get update && \
  #   apt-get autoremove && \
  #   apt-get clean
 
-ENV SERVIIO_VERSION 1.8
+ENV SERVIIO_VERSION 1.9
 
 RUN DIR=$(mktemp -d) && cd ${DIR} && \
     curl -Os http://download.serviio.org/releases/serviio-${SERVIIO_VERSION}-linux.tar.gz && \
